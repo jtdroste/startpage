@@ -24,7 +24,7 @@ function getFullData($boardID) {
 }
 
 function combineTrelloData($data) {
-	if ( !is_array($data) || count($data) != 3 ) 
+	if ( !is_array($data) || count($data) != 3 )
 		throw new InvalidArgumentException('Invalid data passed. Please pass data from the startpage\trello\getFullData method.');
 
 	$cards = array();
@@ -48,7 +48,7 @@ function combineTrelloData($data) {
 		$cards[$card->idList]['cards'][] = array(
 			'id'   => $card->id,
 			'name' => $card->name,
-			'uri'  => $card->shortUrl,
+			'url'  => $card->shortUrl,
 			'labels' => $labels,
 			'due'  => $card->due,
 		);
