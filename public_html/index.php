@@ -1,6 +1,6 @@
 <?php
 // access key to unlock everything
-$accessKey = '67AFC0F3E23';
+$accessKey = 'INSERT_ACCESS_KEY_HERE';
 
 // links
 $links = array(
