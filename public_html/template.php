@@ -7,6 +7,9 @@ define('STARTPAGE_TRELLO_CUTOFF', 60*60*24*7*2);
 
 require './modules/doku.php';
 require './modules/trello.php';
+require './modules/acl.php';
+
+if ( isset($accessKey) && !empty($accessKey) ) acl_enable($accessKey, $links);
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,7 @@
 <?php
+// access key to unlock everything
+$accessKey = '67AFC0F3E23';
+
 // links
 $links = array(
 	'social' => array(
@@ -17,7 +20,7 @@ $links = array(
 	'internal apps' => array(
 		array('wiki', 'https://your-doku-wiki-here'),
 	),
-	'todo' => array(
+	'_todo' => array(
 		array('homework', 'https://trello.com/b/BOARDID/homework'),
 		array('personal', 'https://trello.com/b/BOARDID/personal'),
 		array('work', 'https://trello.com/b/BOARDID/work'),
