@@ -1,0 +1,7 @@
+<?php
+define('API_KEY', ');     // Trello API Key
+define('API_SECRET', ''); // Trello API Secret. Not used currently.
+define('API_TOKEN', '');  // Trello API token.
+
+// To get the API_TOKEN, visit this URL:
+// https://trello.com/1/authorize?response_type=token&key=PUT_API_KEY_HERE&scope=read,write,account&expiration=never&name=startpage-bin

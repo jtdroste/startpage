@@ -1,0 +1,114 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f2347b82f7ce9be758eb8caedd7836ba",
+    "packages": [
+        {
+            "name": "mattzuba/php-trello",
+            "version": "v1.1.1",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/mattzuba/php-trello/src",
+                "reference": "fb34a5ef416b"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Trello\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MPL-2.0-no-copyleft-exception"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Zuba",
+                    "email": "matt.zuba@gmail.com",
+                    "homepage": "http://www.mattzuba.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP-based Trello API Wrapper",
+            "homepage": "http://mattzuba.bitbucket.org/php-trello/",
+            "keywords": [
+                "api",
+                "trello"
+            ],
+            "time": "2013-08-29 16:06:23"
+        },
+        {
+            "name": "wp-cli/php-cli-tools",
+            "version": "v0.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/php-cli-tools.git",
+                "reference": "b2b1dfe18f5c79070daf73921996bc1299e42445"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/b2b1dfe18f5c79070daf73921996bc1299e42445",
+                "reference": "b2b1dfe18f5c79070daf73921996bc1299e42445",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "cli": "lib/"
+                },
+                "files": [
+                    "lib/cli/cli.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Logsdon",
+                    "email": "jlogsdon@php.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "daniel@handbuilt.co",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Console utilities for PHP",
+            "homepage": "http://github.com/wp-cli/php-cli-tools",
+            "keywords": [
+                "cli",
+                "console"
+            ],
+            "time": "2014-09-10 12:36:54"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

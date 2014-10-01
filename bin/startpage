@@ -1,0 +1,24 @@
+#!/usr/bin/php
+<?php
+require __DIR__.'/vendor/autoload.php';
+require __DIR__.'/config/config.php';
+
+if ( count($argv) == 0 || count($argv) == 1 ) {
+	\cli\err('Incorrect arguments. Usage: startpage <method> <args>');
+	return 0;
+}
+
+array_shift($argv); // Remove script name
+
+$method = strtolower(array_shift($argv));
+$methodCall = str_replace('-', '_', $method);
+$file   = __DIR__.'/methods/'.$method.'.php';
+
+if ( !file_exists($file) ) {
+	\cli\err('Unknown method - '.$method.'.');
+	return 0;
+}
+
+require $file;
+
+return $methodCall($argv);

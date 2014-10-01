@@ -1,0 +1,14 @@
+{
+    "name": "jtdroset/startpage-bin",
+    "description": "Startpage binary scripts",
+    "require": {
+        "mattzuba/php-trello": "~1.1",
+        "wp-cli/php-cli-tools": "~0.10"
+    },
+    "authors": [
+        {
+            "name": "James Droste",
+            "email": "james@droste.im"
+        }
+    ]
+}

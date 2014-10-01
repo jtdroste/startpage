@@ -1,0 +1,30 @@
+body {
+	font-family: Helvetica;
+	background-color: #eee;
+}
+
+
+.links, .links:before, .links:after {
+	box-sizing:  border-box !important;
+}
+
+.links-row {
+	-moz-column-width: 10em;
+	-webkit-column-width: 10em;
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;  
+}
+
+.links-category {
+	display: inline-block;
+	margin:  0.25rem;
+	padding:  1rem;
+	width:  100%; 
+}
+
+.row-category-header {
+	z-index: 2;
+	color: #fff;
+	background: #428bca;
+	border-color: #428bca;
+}

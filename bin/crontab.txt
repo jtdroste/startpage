@@ -1,0 +1,6 @@
+# Replace BOARDID with your trello board id
+# Replace ~/path/to/startpage with the path to whereever you're hosting this
+
+@hourly ~/path/to/startpage/bin/startpage trello-board BOARDID > ~/path/to/startpage/data/trello-board.BOARDID.dat
+@hourly ~/path/to/startpage/bin/startpage trello-cards BOARDID > ~/path/to/startpage/data/trello-cards.BOARDID.dat
+@hourly ~/path/to/startpage/bin/startpage trello-lists BOARDID > ~/path/to/startpage/data/trello-lists.BOARDID.dat

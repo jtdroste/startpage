@@ -1,0 +1,10 @@
+# Composer stuff
+bin/config/config.php
+bin/vendor/
+
+# Logs
+logs/
+
+# Random data
+data/
+
